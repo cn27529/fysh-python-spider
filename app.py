@@ -25,9 +25,10 @@ def about():
 
 
 @app.route("/spider-result/")
-def about():
+def spider_result():
 
-    content = get_file("spider-result.txt")
+    content = get_file("./templates/spider-result.txt")
+    # content = content.replace("\n", "<br>")
     return Response(content, mimetype="text/html")
 
 
