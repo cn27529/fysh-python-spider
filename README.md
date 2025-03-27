@@ -27,3 +27,7 @@ vercel dev
 # How To Use Templates in a Flask Application
 
 <https://www.digitalocean.com/community/tutorials/how-to-use-templates-in-a-flask-application>
+
+# bash run
+## py req.py > templates/spider-result.txt       
+## py req-bs4a.py > spider-result.txt
