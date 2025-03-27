@@ -31,3 +31,7 @@ vercel dev
 # bash run
 ## py req.py > templates/spider-result.txt       
 ## py req-bs4a.py > spider-result.txt
+
+# 學習資源
+## STEAM 教育學習網
+<https://steam.oxxostudio.tw/category/python/spider/requests.html>
