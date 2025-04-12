@@ -35,3 +35,20 @@ vercel dev
 # 學習資源
 ## STEAM 教育學習網
 <https://steam.oxxostudio.tw/category/python/spider/requests.html>
+
+# Flask
+## see a package.json
+'''bash
+flask --app sample --debug run
+
+or 
+export FLASK_APP=sample
+$ export FLASK_ENV=development
+$ flask run
+
+set FLASK_APP=sample
+
+For PowerShell, use $env:.
+$env:FLASK_APP = "sample"
+
+'''

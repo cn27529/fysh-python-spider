@@ -1,0 +1,16 @@
+{
+  "name": "fysh-python-spider",
+  "version": "1.0.0",
+  "description": "An Pyton spider for fysh",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "flask run --port 8080",
+    "dev": "flask --app ./app.py --debug run"
+  },
+  "author": "",
+  "license": "ISC"
+}
