@@ -1,6 +1,6 @@
 import requests
 
-url = "https://www.example.com"
+url = "https://books.toscrape.com/"
 # url = "https://news.google.com/home?hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
 response = requests.get(url)
 response.encoding = "utf-8"  # 因為該網頁編碼為 utf-8，加上 .encoding 避免亂碼
