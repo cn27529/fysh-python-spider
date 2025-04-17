@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 
 html_content = """
 <html>
-    <head><title>範例網頁</title></head>
+    <head><title>這一個網頁標題，網路爬蟲能找到我哈哈哈笑死</title></head>
     <body>
         <h1>這是主標題</h1>
         <p>這是一個段落。</p>
