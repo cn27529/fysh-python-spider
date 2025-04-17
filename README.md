@@ -38,7 +38,7 @@ vercel dev
 
 # Flask
 ## see a package.json
-'''bash
+```bash
 flask --app sample --debug run
 
 or 
@@ -50,5 +50,4 @@ set FLASK_APP=sample
 
 For PowerShell, use $env:.
 $env:FLASK_APP = "sample"
-
-'''
+```
